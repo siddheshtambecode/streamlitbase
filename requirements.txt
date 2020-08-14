@@ -1,4 +1,4 @@
 gunicorn==19.9.0
-pickle>=3.0
-tensorflow>=3.7
+pickleshare>=2.0
+tensorflow>=2.2.0
 streamlit>=0.64.0

@@ -40,6 +40,7 @@ def get_autocomplete(seed_text):
         n_gram_sequence = token_list[:i + 1]
         input_sequences.append(n_gram_sequence)
     max_sequence_len = 819
+    model = load_model('autocompletereviewmodel300l10e.h5')
     for _ in range(next_words):
         token_list = tokenizer.texts_to_sequences([seed_text])[0]
         token_list = pad_sequences([token_list], maxlen=max_sequence_len - 1, padding='pre')

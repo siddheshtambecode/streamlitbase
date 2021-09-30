@@ -7,7 +7,7 @@ __author__ = "Siddhesh Tambe"
 
 
 def main():
-    st.title("Customer Review Writing Assistant")
+    st.title("Customer Review Writing Assistant - made by Siddhesh Tambe")
     st.sidebar.title("How was it made")
     st.sidebar.markdown("""1.This model was trained on a part of the Amazon Product review dataset""")
     st.sidebar.markdown(

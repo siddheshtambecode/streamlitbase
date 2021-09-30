@@ -9,7 +9,7 @@ __author__ = "Siddhesh Tambe"
 def main():
     st.title("Customer Review Writing Assistant")
     st.sidebar.title("How was it made")
-     st.sidebar.markdown("""Made by Siddhesh Tambe""")
+    st.sidebar.markdown("""Made by Siddhesh Tambe""")
     st.sidebar.markdown("""1.This model was trained on a part of the Amazon Product review dataset""")
     st.sidebar.markdown(
         """2.This model uses the capability of NLP to suggest future text based on current user input""")
